@@ -105,8 +105,8 @@ html,body{
 
 .market{
     position:absolute;
-    top:-50px;
-    left:100px;
+    top: -50px;
+    left: 150px;
     color:#ffffff00;
     z-index: 6;
 }
@@ -119,8 +119,7 @@ html,body{
     display:none;
 }
 .market-svg{
-    width:800px;
-    height:auto;
+    width: 800px;
 }
 
 /* Wallet Connect Modal */
@@ -159,156 +158,49 @@ html,body{
 
 
 
+
 /*///////////Media Quries ///////////*/
 
-/* big landscape tablets laptopd drsktops*/
-@media (min-width: 2100px) {
-    /* Wallet Connect */
-#wallet-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-.wallet-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-#wallet-profile-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-    /*market*/
-    .market{
-        position:absolute;
-        top:-50px;
-        left:10px;
-        color:#ffffff00;
-        z-index: 6;
-    }
-    
-    #market-button{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        display:none;
-    }
-    .market-svg{
-        width:800px;
-        height:auto;
-    }
 
-    /* Mint */
 
+
+@media  screen and (min-width: 768px) {
+    /*For Big TV's (HD Screens) */
+        /* Market start*/
+        .market{
+            position:absolute;
+            top: 0px;
+            left: 170px;
+            color:#ffffff00;
+            z-index: 6;
+        }
+        
+        #market-button{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            display:none;
+        }
+        .market-svg{
+            width: 500px;
+            height:auto;
+        }
+    /* Market end*/
+    /* Mint start*/
     .mint-svg{
-        width:800px;
-        height:auto;
-    }
-
-    .mint{
-        position:absolute;
-        top: 400px;
-        left:800px;
-        color:#ffffff00;
-        z-index: 2;
-        width: 100%;
-    }
-
-    #mint-button{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        display:none;
-    }
-    /*Play*/
-    .play{
-        position:absolute;
-        left: 550px;
-        top: 450px;
-        color: #ffffff00;
-        z-index: 10;
-    }
-    #play-svg{
-        cursor: pointer;
-        width: 500px;
-    }
-    .play-svg{
-        width:626px;
+        width: 400px;
         height:auto;
     }
     
-    
-    #play-button{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        display:none;
-    }
-    
-
-}
-
-/* tablets low resulution laptopd drsktops*/
-@media (max-width: 1200px) {
-    /* Wallet Connect */
-    /* Wallet Connect */
-#wallet-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-.wallet-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-#wallet-profile-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-    /*market*/
-    .market{
-        position:absolute;
-        top: -50px;
-        left: 150px;
-        color:#ffffff00;
-        z-index: 6;
-        width: 100%;
-    }
-    
-    #market-button{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        display:none;
-    }
-    .market-svg{
-        width:600px;
-        height:auto;
-    }
-
-    /* Mint */
-
-    .mint-svg{
-        width:600px;
-        height:auto;
-    }
-
     .mint{
         position:absolute;
         top: 270px;
-        left:400px;
+        left: 550px;
         color:#ffffff00;
-        z-index: 2;
-        width: 100%;
+        z-index: 7;
     }
-
+    
     #mint-button{
         position:absolute;
         top:50%;
@@ -316,196 +208,12 @@ html,body{
         transform: translate(-50%,-50%);
         display:none;
     }
-
+    /* Mint start*/
+    
+    /* Play start*/
     .play{
         position:absolute;
         left: 500px;
-        top: 350px;
-        color: #ffffff00;
-        z-index: 10;
-    }
-    #play-svg{
-        cursor: pointer;
-        width: 500px;
-    }
-    .play-svg{
-        width:300px;
-        height:auto;
-    }
-    
-    
-    #play-button{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        display:none;
-    }
-    
-
-    
-}
-
-/* portrait tablets ereaders*/
-@media (max-width: 1024px) {
-     /* Wallet Connect */
-     /* Wallet Connect */
-#wallet-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-.wallet-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-#wallet-profile-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-    /*market*/
-    .market{
-        position:absolute;
-        top: -50px;
-        left: -80px;
-        color:#ffffff00;
-        z-index: 6;
-        width: 100%;
-    }
-    
-    #market-button{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        display:none;
-    }
-    .market-svg{
-        width:800px;
-        height:300px;
-    }
-
-    /* Mint */
-
-    .mint-svg{
-        width:600px;
-        height:auto;
-    }
-
-    .mint{
-        position:absolute;
-        top: 250px;
-        left:350px;
-        color:#ffffff00;
-        z-index: 2;
-        width: 100%;
-    }
-
-    #mint-button{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        display:none;
-    }
-      
-    .play{
-        position:absolute;
-        left: 370px;
-        top: 310px;
-        color: #ffffff00;
-        z-index: 10;
-    }
-    #play-svg{
-        cursor: pointer;
-    }
-    .play-svg{
-        width:400px;
-        height:auto;
-    }
-    
-    
-    #play-button{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        display:none;
-    }
-    
-
-}
-
-/*smart phones*/
-@media (max-width: 768px) {
-    /* Wallet Connect */
-   /* Wallet Connect */
-#wallet-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-.wallet-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-#wallet-profile-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-    /*market*/
-    .market{
-        position:absolute;
-        top: -10px;
-        left: -150px;
-        color:#ffffff00;
-        z-index: 6;
-        width: 100%;
-    }
-    
-    #market-button{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        display:none;
-    }
-    .market-svg{
-        width:800px;
-        height: 250px;
-    }
-
-    /* Mint */
-
-    .mint-svg{
-        width:350px;
-        height:auto;
-    }
-
-    .mint{
-        position:absolute;
-        top: 270px;
-        left:270px;
-        color:#ffffff00;
-        z-index: 2;
-        width: 100%;
-    }
-
-    #mint-button{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%,-50%);
-        display:none;
-    }
-       
-    .play{
-        position:absolute;
-        left: 250px;
         top: 330px;
         color: #ffffff00;
         z-index: 10;
@@ -514,8 +222,8 @@ html,body{
         cursor: pointer;
     }
     .play-svg{
-        width:450px;
-        height:auto;
+        width: 400px;
+        height: auto;
     }
     
     
@@ -526,38 +234,95 @@ html,body{
         transform: translate(-50%,-50%);
         display:none;
     }
+    /* Play end*/
+  }
 
+
+
+@media screen and (min-width: 1280px) {
+    /*For Big TV's (HD Screens) */
+        /* Market start*/
+        .market{
+            position:absolute;
+            top: 0px;
+            left: 170px;
+            color:#ffffff00;
+            z-index: 6;
+        }
+        
+        #market-button{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            display:none;
+        }
+        .market-svg{
+            width: 700px;
+            height:auto;
+        }
+    /* Market end*/
     
-}
-
-/*smart phones 480x320*/
-@media (max-width: 480px) {
-
-    /* Wallet Connect */
-    /* Wallet Connect */
-#wallet-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-.wallet-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-#wallet-profile-connect{
-    position: absolute;
-    top:20px;
-    right:40px;
-}
-    /*market*/
-    .market{
+    /* Mint start*/
+    .mint-svg{
+        width: 700px;
+        height:auto;
+    }
+    
+    .mint{
         position:absolute;
-        top: -10px;
-        left: -25px;
+        top: 370px;
+        left: 500px;
+        color:#ffffff00;
+        z-index: 7;
+    }
+    
+    #mint-button{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        display:none;
+    }
+    /* Mint start*/
+    
+    /* Play start*/
+    .play{
+        position:absolute;
+        left: 600px;
+        top: 450px;
+        color: #ffffff00;
+        z-index: 10;
+    }
+    #play-svg{
+        cursor: pointer;
+    }
+    .play-svg{
+        width: 500px;
+        height: auto;
+    }
+    
+    
+    #play-button{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        display:none;
+    }
+    /* Play end*/
+            
+}
+
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+     /* Market start*/
+     .market{
+        position:absolute;
+        top: 50px;
+        left: 170px;
         color:#ffffff00;
         z-index: 6;
-        width: 100%;
     }
     
     #market-button{
@@ -568,24 +333,23 @@ html,body{
         display:none;
     }
     .market-svg{
-        width:550px;
+        width: 800px;
         height:auto;
     }
+/* Market end*/
 
-    /* Mint */
-
+    /* Mint start*/
     .mint-svg{
-        width:600px;
+        width: 700px;
         height:auto;
     }
 
     .mint{
         position:absolute;
-        top: 250px;
-        left:150px;
+        top: 470px;
+        left: 670px;
         color:#ffffff00;
-        z-index: 2;
-        width: 100%;
+        z-index: 7;
     }
 
     #mint-button{
@@ -595,8 +359,184 @@ html,body{
         transform: translate(-50%,-50%);
         display:none;
     }
-       
-    
+    /* Mint start*/
 
+    /* Play start*/
+    .play{
+        position:absolute;
+        left: 680px;
+        top: 590px;
+        color: #ffffff00;
+        z-index: 10;
+    }
+    #play-svg{
+        cursor: pointer;
+    }
+    .play-svg{
+        width: 500px;
+        height: auto;
+    }
+
+
+    #play-button{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        display:none;
+    }
+    /* Play end*/
+}
+    
+@media screen and (min-width: 1920px) {
+    /*For Projectors or Higher Resolution Screens (Full HD)*/
+     /* Market start*/
+     .market{
+        position:absolute;
+        top: 0px;
+        left: 50px;
+        color:#ffffff00;
+        z-index: 6;
+    }
+    
+    #market-button{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        display:none;
+    }
+    .market-svg{
+        width: 1100px;
+        
+    }
+/* Market end*/
+
+/* Mint start*/
+.mint-svg{
+    width: 1200px;
+}
+
+.mint{
+    position:absolute;
+    top: 550px;
+    left: 400px;
+    color:#ffffff00;
+    z-index: 7;
+}
+
+#mint-button{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:none;
+}
+/* Mint start*/
+
+/* Play start*/
+/* Play start*/
+.play{
+    position:absolute;
+    left: 750px;
+    top: 700px;
+    color: #ffffff00;
+    z-index: 10;
+}
+#play-svg{
+    cursor: pointer;
+}
+.play-svg{
+    width: 500px;
+    height: auto;
+}
+
+
+#play-button{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:none;
+}
+/* Play end*/
+/* Play end*/
+}
+
+
+
+@media screen and (min-width: 3840px) {
+    /*For 4K Displays (Ultra HD)*/
+     /* Market start*/
+     .market{
+        position:absolute;
+        top: 0px;
+        left: -500px;
+        color:#ffffff00;
+        z-index: 6;
+    }
+    
+    #market-button{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        display:none;
+    }
+    .market-svg{
+        width: 2100px;
+        
+    }
+/* Market end*/
+
+/* Mint start*/
+.mint-svg{
+    width: 2200px;
+}
+
+.mint{
+    position:absolute;
+    top: 1150px;
+    left: 400px;
+    color:#ffffff00;
+    z-index: 7;
+}
+
+#mint-button{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:none;
+}
+/* Mint start*/
+
+/* Play start*/
+/* Play start*/
+.play{
+    position:absolute;
+    left: 550px;
+    top: 1350px;
+    color: #ffffff00;
+    z-index: 10;
+}
+#play-svg{
+    cursor: pointer;
+}
+.play-svg{
+    width: 1500px;
+    height: auto;
+}
+
+
+#play-button{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:none;
+}
+/* Play end*/
+/* Play end*/
     
 }
