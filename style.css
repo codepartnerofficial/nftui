@@ -162,9 +162,79 @@ html,body{
 /*///////////Media Quries ///////////*/
 
 
+@media screen and (min-width: 768px) {
+    .market{
+        position:absolute;
+        top: 0px;
+        left: 50px;
+        color:#ffffff00;
+        z-index: 6;
+    }
+    
+    #market-button{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        display:none;
+    }
+    .market-svg{
+        width: 500px;
+        height:auto;
+    }
+/* Market end*/
 
+    /* Mint start*/
+    .mint-svg{
+        width: 400px;
+        height:auto;
+    }
+    
+    .mint{
+        position:absolute;
+        top: 270px;
+        left: 450px;
+        color:#ffffff00;
+        z-index: 7;
+    }
+    
+    #mint-button{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        display:none;
+    }
+    /* Mint start*/
+    /* Play start*/
+    .play{
+        position:absolute;
+        left: 300px;
+        top: 330px;
+        color: #ffffff00;
+        z-index: 10;
+    }
+    #play-svg{
+        cursor: pointer;
+    }
+    .play-svg{
+        width: 400px;
+        height: auto;
+    }
+    
+    
+    #play-button{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        display:none;
+    }
+    /* Play end*/
+}
+    
 
-@media  screen and (min-width: 768px) {
+@media  screen and (min-width:  992px) {
     /*For Big TV's (HD Screens) */
         /* Market start*/
         .market{
